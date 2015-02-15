@@ -6,18 +6,20 @@ pallette {
 }
 
 body {
-	font-family: 'Muli', sans-serif;
+	/*font-family: 'Muli', sans-serif;*/
+	font-family: 'Nunito', sans-serif;
 	letter-spacing: 1px;
 }
 
+/***************HEADER****************/
 .top-row {
-	height: 200px;
+	background-color: #3A539B;
+	height: 175px;
+	margin-top: 10px;
 }
 
 .header {
 	width: 100%;
-	background-color: #3A539B;
-	/*background-image: url('../img/books.jpg');*/
 	padding: 1%;
 }
 
@@ -80,24 +82,60 @@ body {
 	font-size: 1rem;
 	line-height: 1rem;
 }
-
+/****************ABOUT ESL CLASSES ******************/
 .first-row {
-	background-color: #EEEEEE;
+	background-color: #ECF0F1;
 	width: 100%;
+	padding: 15px;
+	margin: 35px auto;
+	margin-top: 40px;
 }
 
+.emphasis {
+	color: orange;
+	font-weight: bold;
+}
+
+.green {
+	color: green;
+}
+
+h2 {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.8rem;
+}
+
+
+
+
 .faq {
-	font-size: 2em;
+	font-size: 1.5rem;
 	list-style: none;
 }
 
 .fa-pencil-square-o {
-	font-size: 10em;
-	color: #773302;
+	font-size: 10rem;
+	color: #6C7A89;
+	text-align: center;
+	position: relative;
+	left: 55px;
+	top: 25px;
 }
+
+/*************VOLUNTEER ROW******************/
 
 .fa-book {
 	font-size: 10em;
-	color: #2583E7;
+	color: #3A539B;
+	position: relative;
+	left: 60px;
+	top: 80px;
+}
 
+.volunteer-row {
+	background-color: #ECF0F1;
+}
+
+.tutor-info {
+	padding: 20px;
 }
