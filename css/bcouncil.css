@@ -6,32 +6,89 @@ pallette {
 }
 
 body {
-	font-family: 'Belleza', sans-serif;
+	font-family: 'Muli', sans-serif;
+	letter-spacing: 1px;
 }
 
-h1 {
-	font-family: 'Marmelad', sans-serif;
+.top-row {
+	height: 200px;
+}
+
+.header {
+	width: 100%;
+	background-color: #3A539B;
+	/*background-image: url('../img/books.jpg');*/
+	padding: 1%;
+}
+
+.logo {
+	font-family: 'Nunito', sans-serif;
 	line-height: 1.2;
+	font-size: 1.8rem;
+	width: 150px;
+	padding: 5px;
+	font-weight: 700;
+	color: white;
 }
 
-.button {
-	background-color: #272092;
+.logobox {
+	background-color: #3A539B;
+	border-bottom: solid 3px white;
+	border-top: solid 3px white;
+	width: 175px;
+	height: 100%;
+	padding: 10px;
+	text-align: center;
 	border-radius: 5px;
-	margin-left: 2.5px;
-	margin-right: 2.5px;
 }
 
-.button-group li {
-	font-family: 'Belleza', sans-serif;
-	letter-spacing: 1.25px;
+.logo h1 {
+	margin: auto;
+	color: white;
+}
+
+.nav-items li {
+	display: inline-block;
+	text-decoration: none;
+}
+
+.nav-items {
+	position: relative;
+	top: -58px;
+	float: right;
+	font-size: 1.1rem;
+	/*background: #2c3e50;*/
+	padding: 15px;
+}
+
+.nav-items a:hover {
+	background-color: #59ABE3;
+	opacity: 2;
+}
+
+.nav-items li a {
+	padding: 20px;
+	color: white;
 }
 
 .main-img {
 	border-radius: 10px;
+	position: relative;
 }
 
 .subhead {
-	font-size: 1.25em;
+	font-size: 1rem;
+	line-height: 1rem;
+}
+
+.first-row {
+	background-color: #EEEEEE;
+	width: 100%;
+}
+
+.faq {
+	font-size: 2em;
+	list-style: none;
 }
 
 .fa-pencil-square-o {
