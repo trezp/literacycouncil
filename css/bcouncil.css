@@ -100,13 +100,10 @@ body {
 	color: green;
 }
 
-h2 {
+h2, h3 {
 	font-family: 'Nunito', sans-serif;
 	font-size: 1.8rem;
 }
-
-
-
 
 .faq {
 	font-size: 1.5rem;
@@ -139,3 +136,56 @@ h2 {
 .tutor-info {
 	padding: 20px;
 }
+
+/******************JQUERY UI*******************/
+
+.ui-accordion {
+	background-color: none;
+	font-size: 1.4em;
+	border: 0;
+}
+
+
+#accordion .ui-accordion-header {
+  background-image: none;
+  background-color: white;
+  color: black;
+ 
+}
+/*.demoHeaders {
+	margin-top: 1em;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	select {
+		width: 200px;
+	}*/
