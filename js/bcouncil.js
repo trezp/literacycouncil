@@ -5,23 +5,35 @@ $( "#accordion" ).accordion({
 	heightStyle: "content"
 });
 
-$("#home").click(function(){
-	$("#body").load("#home");
-});
+$(document).ready(function(){
 
-$("#classes").click(function(){
-	console.log("Clicked")
-	$("#body").load("classes.html");
-});
 
-$("#volunteer").click(function(){
-	$("#body").load("volunteer.html");
-});
+		// $("#home").click(function(){
+  //       $('#most-important').load();
+  //      }); 
 
-$("#about").click(function(){
-	$("#body").load("about.html");
-});
+       $("#classes-link").click(function(){
+        $('#home-content').load('classes.html')
+        $('#most-important').remove();
+       }); 
 
-$("#general").click(function(){
-	$("#body").load("general.html");
+       $("#volunteer-link").click(function(){
+        $('#home-content').load('volunteer.html');
+        $('#most-important').remove();
+       }); 
+
+       $("#about-link").click(function(){
+        $('#home-content').load('about.html');
+        $('#most-important').remove();
+       }); 
+
+       $("#general-link").click(function(){
+        $('#home-content').load('general.html');
+        $('#most-important').remove();
+       }); 
+     });
+
+$("#classes").on('click', function(e){
+	e.preventDefault;
+	$("#magic").load("classes.html")
 });
