@@ -1,12 +1,6 @@
 
-pallette {
-	#2583E7
-	#272092
-	#773302
-}
 
 body {
-	/*font-family: 'Muli', sans-serif;*/
 	font-family: 'Nunito', sans-serif;
 	letter-spacing: 1px;
 	color: #22313F;
@@ -146,6 +140,7 @@ h2, h3 {
 
 .studentpic {
 	margin-top: 25px;
+	float: right;
 }
 
 /******************JQUERY UI*******************/
@@ -167,40 +162,4 @@ h2, h3 {
   color: black;
 
 }
-/*.demoHeaders {
-	margin-top: 1em;
-	}
-	#dialog-link {
-		padding: .4em 1em .4em 20px;
-		text-decoration: none;
-		position: relative;
-	}
-	#dialog-link span.ui-icon {
-		margin: 0 5px 0 0;
-		position: absolute;
-		left: .2em;
-		top: 50%;
-		margin-top: -8px;
-	}
-	#icons {
-		margin: 0;
-		padding: 0;
-	}
-	#icons li {
-		margin: 2px;
-		position: relative;
-		padding: 4px 0;
-		cursor: pointer;
-		float: left;
-		list-style: none;
-	}
-	#icons span.ui-icon {
-		float: left;
-		margin: 0 4px;
-	}
-	.fakewindowcontain .ui-widget-overlay {
-		position: absolute;
-	}
-	select {
-		width: 200px;
-	}*/
+
