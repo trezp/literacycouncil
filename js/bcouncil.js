@@ -6,34 +6,26 @@ $( "#accordion" ).accordion({
 });
 
 $(document).ready(function(){
+//when section link is clicked, load that section into the home-content div
+//and remove most-important div CHANGE TO MORE SENSIBLE NAMES 
+  $("#classes-link").click(function(){
+    $('#home-content').load('classes.html')
+    $('#most-important').remove();
+  }); 
 
+  $("#volunteer-link").click(function(){
+    $('#home-content').load('volunteer.html');
+    $('#most-important').remove();
+  }); 
 
-		// $("#home").click(function(){
-  //       $('#most-important').load();
-  //      }); 
+  $("#about-link").click(function(){
+    $('#home-content').load('about.html');
+    $('#most-important').remove();
+  }); 
 
-       $("#classes-link").click(function(){
-        $('#home-content').load('classes.html')
-        $('#most-important').remove();
-       }); 
-
-       $("#volunteer-link").click(function(){
-        $('#home-content').load('volunteer.html');
-        $('#most-important').remove();
-       }); 
-
-       $("#about-link").click(function(){
-        $('#home-content').load('about.html');
-        $('#most-important').remove();
-       }); 
-
-       $("#general-link").click(function(){
-        $('#home-content').load('general.html');
-        $('#most-important').remove();
-       }); 
-     });
-
-$("#classes").on('click', function(e){
-	e.preventDefault;
-	$("#magic").load("classes.html")
+  $("#general-link").click(function(){
+    $('#home-content').load('general.html');
+    $('#most-important').remove();
+  }); 
 });
+

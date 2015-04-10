@@ -62,7 +62,6 @@ body {
 	top: -58px;
 	float: right;
 	font-size: 1.1rem;
-	/*background: #2c3e50;*/
 	padding: 15px;
 }
 
@@ -98,17 +97,10 @@ body {
 }
 
 .emphasis {
-	/*color: #1BBC9B;*/
 	font-size: 1.2em;
 	font-weight: bold;
 	color: #049372;
 }
-
-/*.green {
-	color: #1E824C;
-	font-size: 1.2em;
-	font-weight: bold;
-}*/
 
 h2, h3 {
 	font-family: 'Nunito', sans-serif;
