@@ -4,6 +4,7 @@ body {
 	font-family: 'Nunito', sans-serif;
 	letter-spacing: 1px;
 	color: #22313F;
+	
 }
 
 #classes, #volunteer, #about, #general {
@@ -11,82 +12,38 @@ body {
 }
 
 /***************HEADER****************/
-.top-row {
-	background-color: #3A539B;
-	height: 175px;
-	margin-top: 10px;
+.header-row {
+	background: #3A539B;
+	padding: 20px 0;
 }
 
-.header {
-	width: 100%;
-	padding: 1%;
+.logobox img {
+	max-width: 100%;
+	height: auto;
 }
 
-.logo {
-	font-family: 'Nunito', sans-serif;
-	line-height: 1.2;
-	font-size: 1.8rem;
-	width: 150px;
-	padding: 5px;
-	font-weight: 700;
-	color: white;
-}
-
-#logolink {
-	color: white;
-}
-
-.logobox {
-	background-color: #3A539B;
-	border-bottom: solid 3px white;
-	border-top: solid 3px white;
-	width: 175px;
-	height: 100%;
-	padding: 10px;
-	text-align: center;
-	border-radius: 5px;
-}
-
-.logo h1 {
-	margin: auto;
-	color: white;
+.nav {
+	height: 120px;
+	background: #3A539B;
+	
 }
 
 .nav-items li {
 	display: inline-block;
 	text-decoration: none;
+	line-height: 120px;
 }
 
-.nav-items {
-	position: relative;
-	top: -58px;
-	float: right;
-	font-size: 1.1rem;
-	padding: 15px;
+.nav-items a {
+	color: white;
+	padding: 25px;
 }
 
 .nav-items a:hover {
 	border-bottom: solid 3px white;
 	border-top: solid 3px white;
-	border-radius: 5px;
-	opacity: 2;
-
 }
 
-.nav-items li a {
-	padding: 20px;
-	color: white;
-}
-
-.main-img {
-	border-radius: 10px;
-	position: relative;
-}
-
-.subhead {
-	font-size: 1rem;
-	line-height: 1rem;
-}
 /****************ABOUT ESL CLASSES ******************/
 .first-row {
 	background-color: #ECF0F1;
@@ -137,6 +94,9 @@ h2, h3 {
 
 /******************JQUERY UI*******************/
 
+#accordion, .ui-accordion-content {
+	border: none;
+}
 .accordHead {
 	font-size: 1.7rem;
 	padding: 10px;
@@ -145,13 +105,17 @@ h2, h3 {
 .ui-accordion {
 	background-color: none;
 	font-size: 1.3em;
-	border: 0;
+	border: none;
 }
 
-#accordion .ui-accordion-header {
+.ui-accordion-header {
   background-image: none;
   background-color: white;
   color: black;
+  border: none;
+}
 
+.ui-state-focus {
+	border: none;
 }
 
