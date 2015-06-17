@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 //when section link is clicked, load that section into the home-content div
 //and remove most-important div CHANGE TO MORE SENSIBLE NAMES 
-  $("#home-content").load("home.html");
+
 
   $("#classes-link").click(function(){
     $('#home-content').load('classes.html')
